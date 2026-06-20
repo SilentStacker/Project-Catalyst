@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🖥️ lab-architecture
+# 🖥️ Project-Catalyst
 
 ### Physical Enterprise Network Homelab
 
