@@ -1,1 +1,122 @@
-# Project-Catalyst
+# 🚀 Project Catalyst
+
+> Why Project Catalyst?
+
+I built Project Catalyst to gain hands-on experience with enterprise infrastructure using the same technologies found in professional IT environments. Starting with an empty 16U rack, I've been documenting each stage of the project—from hardware installation and networking to virtualization and monitoring—while balancing a full-time, six-day work week. The goal is to continuously expand the lab and deepen my skills in systems administration, networking, and security.
+
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Proxmox](https://img.shields.io/badge/Proxmox-VE-E57000)
+![Docker](https://img.shields.io/badge/Docker-2496ED)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-Server-E95420)
+![Grafana](https://img.shields.io/badge/Grafana-F46800)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C)
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-005571)
+![SonicWall](https://img.shields.io/badge/SonicWall-NGFW-blue)
+
+---
+
+## 📖 About
+
+Project Catalyst is my personal enterprise homelab where I design, build, secure, monitor, and document modern IT infrastructure.
+
+The project began with an empty **16U rack** and has grown into a production-style environment featuring virtualization, enterprise networking, monitoring, and security tools.
+
+Every major milestone is documented with photos, notes, and configuration files.
+
+---
+
+# 📑 Table of Contents
+
+- Infrastructure
+- Network
+- Hardware
+- Services
+- Monitoring
+- Security
+- Build Timeline
+- Documentation
+- Roadmap
+
+---
+
+# 🏗 Current Infrastructure
+
+- 🖥 HP EliteDesk 800 G4 Mini (Proxmox VE)
+- 🔥 SonicWall Firewall (Primary Gateway)
+- 🌐 ARRIS ISP Gateway
+- 🔀 Linksys LGS328PC Managed PoE 24-port Switch
+- 📡 Linksys MX2000 Mesh Wi-Fi (Bedroom)
+- 📡 Linksys MX2000 Mesh Wi-Fi (Mother's Room)
+- 🔧 Cisco Catalyst 3560-CX
+- 🌍 Cisco ISR1100
+- 🍓 Raspberry Pi 5 #1
+- 🍓 Raspberry Pi 5 #2
+
+---
+
+# 🎯 Goals
+
+- Learn enterprise networking
+- Master virtualization
+- Build secure infrastructure
+- Practice Linux administration
+- Implement monitoring and observability
+- Document everything
+- Continuously improve the lab
+
+---
+
+# 🚧 Current Status
+
+## ✅ Operational
+
+- 16U Rack Complete
+- Proxmox VE Host
+- Ubuntu Docker VM
+- Grafana
+- Prometheus
+- Node Exporter
+- cAdvisor
+- Pi-hole
+- SonicWall Gateway
+- Linksys LGS328PC Managed Switch
+- Linksys MX2000 Mesh Wi-Fi
+- Raspberry Pi Monitoring Nodes
+
+## 🚧 In Progress
+
+- VLAN Design
+- 802.1Q Trunk Configuration
+- Firewall Rule Documentation
+- Network Diagrams
+- GitHub Documentation
+
+## 📋 Planned
+
+- Wazuh SIEM
+- WireGuard VPN
+- Tailscale
+- Active Directory
+- Ansible Automation
+- Home Assistant
+---
+
+# 📸 Build Journey
+
+This repository documents the complete build process, including:
+
+- Rack assembly
+- Cable management
+- Network configuration
+- Virtualization
+- Monitoring
+- Security
+- Troubleshooting
+
+More than 100 photos will be added throughout the documentation.
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
