@@ -120,3 +120,39 @@ More than 100 photos will be added throughout the documentation.
 # 📜 License
 
 This project is licensed under the MIT License.
+
+# 🗺️ Roadmap
+
+## Phase 1 — Foundation ✅
+
+- [x] Build 16U rack
+- [x] Install Proxmox
+- [x] Deploy Ubuntu Server
+- [x] Configure Docker
+- [x] Install Grafana
+- [x] Install Prometheus
+- [x] Configure Node Exporter
+- [x] Configure cAdvisor
+- [x] Deploy Pi-hole
+
+## Phase 2 — Networking 🚧
+
+- [ ] Configure VLANs
+- [ ] Configure Trunk Ports
+- [ ] Create Management VLAN
+- [ ] Create Server VLAN
+- [ ] Create Client VLAN
+- [ ] Document Firewall Rules
+
+## Phase 3 — Security
+
+- [ ] Install Wazuh
+- [ ] Configure Log Collection
+- [ ] Configure Alerts
+- [ ] Configure VPN Access
+
+## Phase 4 — Automation
+
+- [ ] Infrastructure Backups
+- [ ] Ansible Playbooks
+- [ ] Automated Monitoring
