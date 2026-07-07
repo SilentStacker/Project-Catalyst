@@ -26,7 +26,7 @@ Every major milestone is documented with photos, notes, and configuration files.
 ---
 
 # 📑 Table of Contents
-
+- Lab at a Glance
 - Infrastructure
 - Network
 - Hardware
@@ -38,6 +38,21 @@ Every major milestone is documented with photos, notes, and configuration files.
 - Roadmap
 
 ---
+## 🏠 Lab at a Glance
+
+| Category | Details |
+|----------|---------|
+| Rack | 16U |
+| Gateway | SonicWall (192.168.168.168) |
+| ISP Router | ARRIS Gateway |
+| Core Switch | Linksys LGS328PC |
+| Lab Switch | Cisco Catalyst 3560-CX |
+| Router Lab | Cisco ISR 1100 |
+| Wireless | 2× Linksys MX2000 Mesh Nodes |
+| Virtualization | 2× Proxmox Hosts |
+| Monitoring | Grafana, Prometheus, Node Exporter, cAdvisor |
+| DNS | Pi-hole |
+| Future | Wazuh, VLANs, Active Directory Expansion |
 
 # 🏗 Current Infrastructure
 
@@ -115,6 +130,23 @@ This repository documents the complete build process, including:
 
 More than 100 photos will be added throughout the documentation.
 
+## 📚 Documentation
+
+### Infrastructure
+
+- [Hardware Inventory](docs/hardware.md)
+- [IP Addressing](docs/networking/ip-addressing.md)
+- [VLAN Plan](docs/networking/vlan-plan.md)
+- [Network Topology](docs/networking/topology.md)
+### Services
+
+- [Proxmox](docs/services/proxmox.md)
+- [Docker](docs/services/docker.md)
+- [Prometheus](docs/services/prometheus.md)
+- [Grafana](docs/services/grafana.md)
+- [Pi-hole](docs/services/pihole.md)
+- [Home Assistant](docs/services/home-assistant.md)
+- [Active Directory](docs/services/active-directory.md)
 ---
 
 # 📜 License
