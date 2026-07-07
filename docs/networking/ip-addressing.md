@@ -10,7 +10,7 @@
 |---|---|---|
 | SonicWall Firewall | Project Catalyst Gateway | 192.168.168.168 |
 | HP EliteDesk 800 G4 Mini | Proxmox VE Host | 192.168.168.30 |
-| HP ProDesk 600 G1 SFF | Second Proxmox VE Host / Home Assistant / AD Lab | TBD |
+| HP ProDesk 600 G1 SFF | Second Proxmox VE Host / Home Assistant / AD Lab | 192.168.168.20 |
 | Ubuntu Server VM | Docker / Monitoring Stack | 192.168.168.144 |
 | Raspberry Pi 5 #1 | Monitoring Node | 192.168.168.200 |
 | Raspberry Pi 5 #2 | Monitoring Node | 192.168.168.201 |
