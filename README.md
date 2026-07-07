@@ -25,17 +25,17 @@ Every major milestone is documented with photos, notes, and configuration files.
 
 ---
 
-# 📑 Table of Contents
-- Lab at a Glance
-- Infrastructure
-- Network
-- Hardware
-- Services
-- Monitoring
-- Security
-- Build Timeline
-- Documentation
-- Roadmap
+## 📑 Table of Contents
+
+- [🏠 Lab at a Glance](#-lab-at-a-glance)
+- [🏗 Infrastructure](#-current-infrastructure)
+- [🌐 Network](#-network)
+- [🖥 Hardware](#-hardware)
+- [📊 Monitoring](#-monitoring)
+- [🔐 Security](#-security)
+- [📚 Documentation](#-documentation)
+- [🗺 Roadmap](#-roadmap)
+- [📜 License](#-license)
 
 ---
 ## 🏠 Lab at a Glance
@@ -43,7 +43,7 @@ Every major milestone is documented with photos, notes, and configuration files.
 | Category | Details |
 |----------|---------|
 | Rack | 16U |
-| Gateway | SonicWall (192.168.168.168) |
+| Gateway | SonicWall (`192.168.168.168`) |
 | ISP Router | ARRIS Gateway |
 | Core Switch | Linksys LGS328PC |
 | Lab Switch | Cisco Catalyst 3560-CX |
