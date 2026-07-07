@@ -138,7 +138,7 @@ More than 100 photos will be added throughout the documentation.
 - [IP Addressing](docs/networking/ip-addressing.md)
 - [VLAN Plan](docs/networking/vlan-plan.md)
 - [Network Topology](docs/networking/topology.md)
-### Services
+## 🖥 Services
 
 - [Proxmox](docs/services/proxmox.md)
 - [Docker](docs/services/docker.md)

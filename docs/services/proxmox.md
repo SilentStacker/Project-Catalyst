@@ -1,8 +1,8 @@
-# Proxmox Virtual Environment
+# 🖥 Proxmox Virtual Environment
 
 ## Overview
 
-Project Catalyst currently uses two Proxmox hosts to separate infrastructure workloads and provide a flexible virtualization environment.
+Project Catalyst uses two Proxmox VE hosts to run virtual machines and provide a flexible environment for learning enterprise infrastructure.
 
 ---
 
@@ -10,15 +10,17 @@ Project Catalyst currently uses two Proxmox hosts to separate infrastructure wor
 
 **Device**
 
-- HP EliteDesk 800 G4 Mini
+HP EliteDesk 800 G4 Mini
 
-### Current Workloads
+### Purpose
 
-- Ubuntu Server VM
-- Docker
-- Prometheus
-- Grafana
-- cAdvisor
+Primary virtualization host
+
+### Virtual Machines
+
+| VM | Purpose |
+|----|----------|
+| Ubuntu Server | Docker, Prometheus, Grafana, cAdvisor |
 
 ---
 
@@ -26,28 +28,36 @@ Project Catalyst currently uses two Proxmox hosts to separate infrastructure wor
 
 **Device**
 
-- HP ProDesk 600 G1 SFF
+HP ProDesk 600 G1 SFF
 
-### Current Workloads
+### Purpose
 
-- Home Assistant
-- Active Directory Lab
+Secondary virtualization host
+
+### Virtual Machines
+
+| VM | Purpose |
+|----|----------|
+| Home Assistant | Home automation |
+| Windows Server (Active Directory Lab) | Identity and directory services |
 
 ---
 
 ## Why Proxmox?
 
-- Open-source virtualization
-- Supports VMs and LXC containers
+- Open-source virtualization platform
 - Web-based management
-- Resource-efficient
-- Great platform for learning enterprise virtualization
+- Supports virtual machines and LXC containers
+- Snapshot support
+- Backup capabilities
+- Excellent for enterprise lab environments
 
 ---
 
 ## Future Plans
 
-- Shared storage
 - Automated backups
-- High Availability (HA) lab
-- Additional Linux and Windows Server VMs
+- Additional Linux VMs
+- Additional Windows Server roles
+- Shared storage evaluation
+- High Availability (HA) lab experiments
