@@ -26,9 +26,11 @@
 | Device | Role | Location | IP Address |
 |---|---|---|---|
 | HP EliteDesk 800 G4 Mini | Proxmox VE Host | Rack | 192.168.168.30 |
+| HP ProDesk 600 G1 SFF | Second Proxmox VE Host / Home Assistant / Active Directory Lab | Rack | 192.168.168.20 |
 | Ubuntu Server VM | Docker / Monitoring Stack | Proxmox | 192.168.168.144 |
 | Raspberry Pi 5 #1 | Monitoring Node | Rack | 192.168.168.200 |
 | Raspberry Pi 5 #2 | Monitoring Node | Rack | 192.168.168.201 |
+
 
 ## Power
 
