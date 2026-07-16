@@ -132,59 +132,29 @@ More than 100 photos will be added throughout the documentation.
 
 ## 📚 Documentation
 
-### Infrastructure
+### 🏗 Infrastructure
 
 - [Hardware Inventory](docs/hardware.md)
+
+### 🌐 Networking
+
 - [IP Addressing](docs/networking/ip-addressing.md)
 - [VLAN Plan](docs/networking/vlan-plan.md)
 - [Network Topology](docs/networking/topology.md)
-## 🖥 Services
 
-- [Proxmox](docs/services/proxmox.md)
-- [Docker](docs/services/docker.md)
-- [Prometheus](docs/services/prometheus.md)
-- [Grafana](docs/services/grafana.md)
-- [Pi-hole](docs/services/pihole.md)
-- [Home Assistant](docs/services/home-assistant.md)
-- [Active Directory](docs/services/active-directory.md)
----
+### 🖥 Platform
 
-# 📜 License
+- [Proxmox](docs/platform/proxmox.md)
+- [Docker](docs/platform/docker.md)
+- [CasaOS](docs/platform/casaos.md)
+- [Home Assistant](docs/platform/home-assistant.md)
+- [Active Directory](docs/platform/active-directory.md)
 
-This project is licensed under the MIT License.
+### 📊 Monitoring
 
-# 🗺️ Roadmap
+- [Grafana](docs/monitoring/grafana.md)
+- [Prometheus](docs/monitoring/prometheus.md)
 
-## Phase 1 — Foundation ✅
+### 🔐 Security
 
-- [x] Build 16U rack
-- [x] Install Proxmox
-- [x] Deploy Ubuntu Server
-- [x] Configure Docker
-- [x] Install Grafana
-- [x] Install Prometheus
-- [x] Configure Node Exporter
-- [x] Configure cAdvisor
-- [x] Deploy Pi-hole
-
-## Phase 2 — Networking 🚧
-
-- [ ] Configure VLANs
-- [ ] Configure Trunk Ports
-- [ ] Create Management VLAN
-- [ ] Create Server VLAN
-- [ ] Create Client VLAN
-- [ ] Document Firewall Rules
-
-## Phase 3 — Security
-
-- [ ] Install Wazuh
-- [ ] Configure Log Collection
-- [ ] Configure Alerts
-- [ ] Configure VPN Access
-
-## Phase 4 — Automation
-
-- [ ] Infrastructure Backups
-- [ ] Ansible Playbooks
-- [ ] Automated Monitoring
+- [Pi-hole](docs/security/pihole.md)
